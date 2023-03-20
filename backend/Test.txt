@@ -1,0 +1,106 @@
+npm init -y
+
+npm i express mysql nodemon
+
+If I want run we use node index.js
+
+so it will give us error as we cannot use import here.
+
+if we import to import es6 modules
+
+we go int package.json and type 
+"type": "module"
+
+
+app.use(express.json()) -- > allows us to send any json file using client
+
+
+{
+"restaurant_name": "Mumbai Delights",
+"contact_name": "Rahul Sharma",
+"pincode": "400053",
+"location": "Mumbai, India",
+"website": "mumbaidelights.com",
+"phone_number": "9823498723",
+"average_transactions": 180
+},
+{
+"restaurant_name": "Sizzling Steaks",
+"contact_name": "Maria Rodriguez",
+"pincode": "10001",
+"location": "New York, USA",
+"website": "sizzlingsteaks.com",
+"phone_number": "212-555-1234",
+"average_transactions": 300
+},
+{
+"restaurant_name": "Burgers & Fries",
+"contact_name": "Mike Johnson",
+"pincode": "90210",
+"location": "Los Angeles, USA",
+"website": "burgersnfries.com",
+"phone_number": "310-555-4321",
+"average_transactions": 150
+},
+{
+"restaurant_name": "Tasty Thai",
+"contact_name": "Katie Smith",
+"pincode": "10110",
+"location": "Bangkok, Thailand",
+"website": "tastythai.com",
+"phone_number": "+66 2 555 5555",
+"average_transactions": 200
+},
+{
+"restaurant_name": "French Bistro",
+"contact_name": "Pierre Martin",
+"pincode": "75001",
+"location": "Paris, France",
+"website": "frenchbistro.com",
+"phone_number": "+33 1 23 45 67 89",
+"average_transactions": 350
+},
+{
+"restaurant_name": "Sushi Central",
+"contact_name": "Takeshi Nakamura",
+"pincode": "104-0061",
+"location": "Tokyo, Japan",
+"website": "sushicentral.jp",
+"phone_number": "+81 3-1234-5678",
+"average_transactions": 280
+},
+{
+"restaurant_name": "Mexican Grill",
+"contact_name": "Carlos Hernandez",
+"pincode": "31000",
+"location": "Mexico City, Mexico",
+"website": "mexicangrill.mx",
+"phone_number": "+52 55 5555 5555",
+"average_transactions": 190
+},
+{
+"restaurant_name": "Vegetarian Delight",
+"contact_name": "Rajesh Sharma",
+"pincode": "110034",
+"location": "Delhi, India",
+"website": "vegetariandelight.com",
+"phone_number": "9876543210",
+"average_transactions": 120
+},
+{
+"restaurant_name": "Seafood Shack",
+"contact_name": "Emily Chen",
+"pincode": "200000",
+"location": "Shanghai, China",
+"website": "seafoodshack.cn",
+"phone_number": "+86 21 1234 5678",
+"average_transactions": 220
+},
+{
+"restaurant_name": "BBQ House",
+"contact_name": "Tom Jackson",
+"pincode": "60601",
+"location": "Chicago, USA",
+"website": "bbqhouse.com",
+"phone_number": "312-555-7890",
+"average_transactions": 270
